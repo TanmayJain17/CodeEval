@@ -1,0 +1,14 @@
+CodeEvaluator Logic 
+
+===================Front End of the code ===================
+
+Step 1:Get the code by encoding it to base 64 (machine readable)
+Step 2:Then encrypt the code (cypher is given)
+Step 3:Then pass/send/evaluate encrypted code (Code sent to the server)
+
+===================Back End of the code ===================
+
+Step 4:Since the code is encrypted so first decrypt it (cypher is given)
+Step 5:Then decode the decrypted code 
+Step 6:Then Run the code 
+Step 7:res.send it
